@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req,res)=>{
-    res.send('this was deployed on vercel')
+    res.send('this was deployed on vercel successfully by Suchir Gupta from Bits Pilani')
 })
 
 app.listen(3000, ()=>{
